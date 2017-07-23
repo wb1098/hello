@@ -1,4 +1,4 @@
-#this is an unwanted comment but commited change
+#Default is "World"
 
 name = ARGV.first || "World"
 
