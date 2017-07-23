@@ -3,5 +3,5 @@
 task :default => :run
 
 task :run do
-  require './lib/hello1.rb'
+  ruby '-Ilib', './lib/hello1.rb'
   end
